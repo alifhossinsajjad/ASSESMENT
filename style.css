@@ -1,0 +1,133 @@
+*img {
+  width: 100%;
+  height: 100%;
+}
+.header-img-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+ width: 1380px;
+ margin: 0px auto;
+}
+
+.product-title {
+  text-align: center;
+  font-size: 46px;
+  font-weight: bold;
+}
+
+.product-description {
+  text-align: center;
+  font-size: 18px;
+  color: gray;
+  margin-bottom: 30px;
+}
+
+/* card btn */
+
+.product-btn-container{
+    width: 1280px;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.product-btn{
+    padding: 15px;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    color: gray;
+    margin-top: 30px;
+}
+
+.product-btn-women{
+     padding: 15px;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    color: white;
+    background-color: black;
+}
+
+/* car section */
+
+.product-cart-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 1280px;
+  margin: 0px auto;
+  padding: 20px;
+  margin-top: 40px;
+  margin-bottom: 60px;
+
+  
+}
+
+.product-card-container {
+  padding: 40px;
+}
+
+.product-icon li {
+  list-style: none;
+}
+.product-icon ul {
+  display: flex;
+}
+
+.product-title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product-price {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+}
+
+.product-review {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.product-card-item{
+    padding: 20px;
+   box-shadow: 1px 1px 3px 2px gray;
+}
+
+
+
+.btn-view-more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* footer section */
+
+
+.footer-container{
+    width: 1280px;
+    margin: 0px auto;
+    margin-top: 40px;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.footer-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
